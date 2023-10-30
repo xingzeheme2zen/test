@@ -1,5 +1,5 @@
 proxies:
-  - name: my proxy
+  - name: my proxy2
     type: socks5
     server: 10.10.26.13
     port: 8889
