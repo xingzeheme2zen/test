@@ -1,0 +1,12 @@
+proxies:
+  - name: my proxy
+    type: socks5
+    server: 10.10.26.13
+    port: 8889
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - Shadowsocks
+rules:
+  - "MATCH,DIRECT"
